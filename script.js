@@ -1,4 +1,10 @@
 // Write your JavaScript code here!
+window.addEventListener("submit", function(event){
+    validateInput();
+    event.preventDefault();
+
+
+})
 
 window.addEventListener("load", function() {
 
